@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"lib": [
+			"Decorators",
+			"ES2022"
+		],
+		"jsx": "react",
+		"rootDir": "..",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"paths": {
+			"@/*": [
+				"../src/*"
+			]
+		},
+		"allowImportingTsExtensions": true,
+		"resolveJsonModule": true,
+		"checkJs": false,
+		"declaration": true,
+		"noEmit": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": true
+	},
+	"exclude": [
+		"dist",
+		"node_modules",
+	],
+}
